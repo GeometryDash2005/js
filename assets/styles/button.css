@@ -1,0 +1,21 @@
+.button {
+	position: relative;
+	padding: 35px 70px;
+	background-color: var(--c-grey-light);
+	color: var(--c-text);
+	border-radius: 10px;
+	text-align: center;
+	font-size: 18px;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.button.-success {
+	background-color: var(--c-success);
+	color: var(--c-white);
+}
+
+.button.-success:hover {
+	background-color: var(--c-success-hover);
+}
